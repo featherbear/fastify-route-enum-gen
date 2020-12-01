@@ -1,4 +1,4 @@
-import { TreeSymbol, MethodSymbol } from 'fastify-route-tree'
+const { TreeSymbol, MethodSymbol } = require('fastify-route-tree')
 
 const data = {}
 
@@ -22,7 +22,7 @@ function crawl () {
   }
 }
 
-export default function () {
+module.exports = function () {
   crawl.apply(this)
   return JSON.stringify(data, null, 2)
 }
