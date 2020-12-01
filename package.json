@@ -8,7 +8,7 @@
     "fastify-route-enum-gen": "./index.js"
   },
   "scripts": {
-    "start": "sucrase-node ."
+    "start": "node ."
   },
   "dependencies": {
     "fastify-route-tree-cli": "featherbear/fastify-route-tree-cli",

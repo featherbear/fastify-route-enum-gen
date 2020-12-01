@@ -128,7 +128,7 @@ fastify-plugin@^3.0.0:
 
 fastify-route-tree-cli@featherbear/fastify-route-tree-cli:
   version "1.0.0"
-  resolved "https://codeload.github.com/featherbear/fastify-route-tree-cli/tar.gz/a2ba8dec6580b4309519c14445c383635d557a66"
+  resolved "https://codeload.github.com/featherbear/fastify-route-tree-cli/tar.gz/46f2007d4061ee3bed1d2a816c5032384b7915bc"
   dependencies:
     fastify "^3.8.0"
     fastify-route-tree featherbear/fastify-route-tree
