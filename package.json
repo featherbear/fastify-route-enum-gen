@@ -1,0 +1,17 @@
+{
+  "name": "fastify-route-enum-gen",
+  "version": "1.0.0",
+  "repository": "git@github.com:featherbear/fastify-route-enum-gen.git",
+  "author": "Andrew Wong <andrew.j.wong@outlook.com>",
+  "license": "MIT",
+  "bin": {
+    "fastify-route-enum-gen": "./index.js"
+  },
+  "scripts": {
+    "start": "sucrase-node ."
+  },
+  "dependencies": {
+    "fastify-route-tree-cli": "featherbear/fastify-route-tree-cli",
+    "sucrase": "^3.16.0"
+  }
+}
