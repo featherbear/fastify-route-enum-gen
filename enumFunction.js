@@ -15,10 +15,10 @@ function crawl () {
             .replace(/[^a-zA-Z0-9]/g, '_')
       ] = this.path
     }
-  } else {
-    for (const path of Object.values(this[TreeSymbol])) {
-      crawl.apply(path)
-    }
+  }
+
+  for (const path of Object.values(this[TreeSymbol])) {
+    crawl.apply(path)
   }
 }
 
